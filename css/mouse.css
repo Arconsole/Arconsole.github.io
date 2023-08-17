@@ -1,0 +1,25 @@
+body {
+	cursor: url("./cursors/Arrow.png"), default;
+}
+
+select {
+	cursor: url("./cursors/Hand.png"), pointer;
+}
+
+button,
+a:hover {
+	cursor: url("./cursors/Hand2.png"), pointer;
+}
+
+input {
+	cursor: url("./cursors/Help.png"), text;
+}
+
+textarea,
+input:focus {
+	cursor: url("./cursors/IBeam.png"), text;
+}
+
+code {
+	cursor: url("./cursors/Handwriting.png"), default;
+}
